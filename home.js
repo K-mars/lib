@@ -183,7 +183,7 @@ function open_translate(elmnt) {
   var a = document.getElementById("google_translate_element");
   if (a.style.display == "") {
     a.style.display = "none";
-    elmnt.innerHTML = "&#xe801;";
+    elmnt.innerHTML = "<i class='fa fa-globe'></i>";
   } else {
     a.style.display = "";
     if (window.innerWidth > 500) {
@@ -199,7 +199,7 @@ function open_search(elmnt) {
   if (a.style.display == "") {
     a.style.display = "none";
     a.style.paddingRight = "";
-    elmnt.innerHTML = "&#xe802;";    
+    elmnt.innerHTML = "<i class='fa fa-search'></i>";    
   } else {
     a.style.display = "";  
     if (window.innerWidth > 700) {
