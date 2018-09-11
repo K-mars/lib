@@ -441,36 +441,36 @@ for (j = 0; j < k; j++) {
   }
 }
 function kmarsCodeColorize(x, lang) {
-  var tagcolor = "green";
-  var tagnamecolor = "cyan";
+  var tagcolor = "cyan";
+  var tagnamecolor = "green";
   var attributecolor = "brown";
   var attributevaluecolor = "mediumblue";
   var commentcolor = "yellow";
   var cssselectorcolor = "brown";
   var csspropertycolor = "purple";
-  var csspropertyvaluecolor = "cyan";
+  var csspropertyvaluecolor = "mediumblue";
   var cssdelimitercolor = "black";
   var cssimportantcolor = "red";  
   var jscolor = "black";
-  var jskeywordcolor = "brown";
-  var jsstringcolor = "mediumblue";
+  var jskeywordcolor = "mediumblue";
+  var jsstringcolor = "brown";
   var jsnumbercolor = "purple";
   var jspropertycolor = "black";
-  var phptagcolor = "red";
+  var phptagcolor = "cyan";
   var phpcolor = "black";
-  var phpkeywordcolor = "mediumblue";
+  var phpkeywordcolor = "brown";
   var phpglobalcolor = "goldenrod";
-  var phpstringcolor = "brown";
+  var phpstringcolor = "mediumblue";
   var phpnumbercolor = "red";  
   var pythoncolor = "black";
   var pythonkeywordcolor = "mediumblue";
   var pythonstringcolor = "brown";
   var pythonnumbercolor = "red";  
-  var angularstatementcolor = "red";
+  var angularstatementcolor = "purple";
   var sqlcolor = "black";
   var sqlkeywordcolor = "mediumblue";
   var sqlstringcolor = "brown";
-  var sqlnumbercolor = "";  
+  var sqlnumbercolor = "green";  
   if (!lang) {lang = "html"; }
   if (lang == "html") {return htmlMode(x);}
   if (lang == "css") {return cssMode(x);}
