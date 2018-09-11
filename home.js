@@ -441,11 +441,11 @@ for (j = 0; j < k; j++) {
   }
 }
 function kmarsCodeColorize(x, lang) {
-  var tagcolor = "mediumblue";
-  var tagnamecolor = "brown";
-  var attributecolor = "red";
-  var attributevaluecolor = "mediumblue";
-  var commentcolor = "green";
+  var tagcolor = "green";
+  var tagnamecolor = "green";
+  var attributecolor = "cyan";
+  var attributevaluecolor = "brown";
+  var commentcolor = "red";
   var cssselectorcolor = "brown";
   var csspropertycolor = "red";
   var csspropertyvaluecolor = "mediumblue";
