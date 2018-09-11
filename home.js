@@ -257,11 +257,11 @@ function kmars_close_all_topnav() {
       x[i].className = "active";
      } else if (d.indexOf("/tags/att_") > -1) {
        c = d.substring(d.indexOf("/tags/att_") + 10, d.lastIndexOf("_"));
-       if (x[i].href == d.substr(0, d.indexOf("/tags/")) + "/tags/tag_" + c + ".asp") {
+       if (x[i].href == d.substr(0, d.indexOf("/tags/")) + "/tags/tag_" + c + ".html") {
          x[i].className = "active";
        }
-     } else if (d.indexOf("/howto/default_page") > -1) {
-       if (x[i].href.indexOf("default.asp") > -1) {
+     } else if (d.indexOf("/2018/09/howto-tut-home.html") > -1) {
+       if (x[i].href.indexOf("home.html") > -1) {
          x[i].className = "active";
        }
      }
@@ -330,13 +330,6 @@ function sendErr() {
   hideError();
   document.getElementById("err_sent").style.display = "block";
 }
-function clickFBLike() {
-  document.getElementById("fblikeframe").style.display = 'block';
-  document.getElementById("popupDIV").innerHTML = "<iframe src='/fblike.asp?r=" + Math.random() + "' frameborder='no' style='height:200px;width:250px;'></iframe><br><button onclick='hideFBLike()' class='kmars-btn kmars-black'>Close</button>";
-}
-function hideFBLike() {
-  document.getElementById("fblikeframe").style.display = 'none';
-}
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
     pageLanguage: 'en',
@@ -358,7 +351,7 @@ function printPage() {
   }
   var head = document.getElementsByTagName("head")[0].innerHTML;
   var myWindow=window.open('','','');
-  myWindow.document.write("<html><head>"+head+"<style>body{padding:15px;}@media print {.printbtn {display:none;}}</style></head><body><button class='printbtn' onclick='window.print()'>Print Page</button><br><br>"+content+"<p><a href='/about/about_copyright.asp'>Copyright 1999-2015</a> by Refsnes Data. All Rights Reserved.</p></body></html>");
+  myWindow.document.write("<html><head>"+head+"<style>body{padding:15px;}@media print {.printbtn {display:none;}}</style></head><body><button class='printbtn' onclick='window.print()'>Print Page</button><br><br>"+content+"<p><a href='/2018/08/copyright.html'>Copyright 2018</a> by KmArS Group. All Rights Reserved.</p></body></html>");
 }
 function openGoogleTranslate() {
   var d = "text/javascript",
