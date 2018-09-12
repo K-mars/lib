@@ -134,31 +134,31 @@ THE SOFTWARE.
 .cm-link {text-decoration: underline;}
 .cm-strikethrough {text-decoration: line-through;}
 
-.cm-s-default .cm-keyword {color: blue/*#708*/;}
-.cm-s-default .cm-atom {color: blue/*#219*/;}
-.cm-s-default .cm-number {color: blue/*#164*/;}
-.cm-s-default .cm-m-javascript.cm-number {color: yellow;}
-.cm-s-default .cm-m-sql.cm-number {color: cyan;}
-.cm-s-default .cm-def {color: black/*#00f*/;}
+.cm-s-default .cm-keyword {color: black/*#708*/;} /* blue*/
+.cm-s-default .cm-atom {color: black/*#219*/;} /* blue*/
+.cm-s-default .cm-number {color: black/*#164*/;} /* blue*/
+.cm-s-default .cm-m-javascript.cm-number {color: black;} /* yellow*/
+.cm-s-default .cm-m-sql.cm-number {color: black;}  /* yellow*/
+.cm-s-default .cm-def {color: black/*#00f*/;} 
 .cm-s-default .cm-variable {color:black;}
-.cm-s-default .cm-m-css.cm-variable {color:red;}
+.cm-s-default .cm-m-css.cm-variable {color:black;} /* red*/
 .cm-s-default .cm-punctuation {}
-.cm-s-default .cm-property {color:purple;}
-.cm-s-default .cm-m-javascript.cm-property {color: lime;}
+.cm-s-default .cm-property {color:black;} /*lime*/
+.cm-s-default .cm-m-javascript.cm-property {color: black;} /*black*/
 .cm-s-default .cm-operator {}
 .cm-s-default .cm-variable-2 {color:black/*#05a*/;}
 .cm-s-default .cm-variable-3 {color: #085;}
-.cm-s-default .cm-comment {color: green/*#a50*/;}
-.cm-s-default .cm-string {color: magenta/*#a11*/;}
-.cm-s-default .cm-m-javascript.cm-string {color: brown;}
-.cm-s-default .cm-m-sql.cm-string {color: black;}
+.cm-s-default .cm-comment {color: black/*#a50*/;} /*medium blue*/
+.cm-s-default .cm-string {color: black/*#a11*/;} /*lime*/
+.cm-s-default .cm-m-javascript.cm-string {color: black;} /* blue*/
+.cm-s-default .cm-m-sql.cm-string {color: blue;}
 .cm-s-default .cm-string-2 {color: #f50;}
 .cm-s-default .cm-meta {color: #555;}
-.cm-s-default .cm-qualifier {color: black/*#555*/;}
-.cm-s-default .cm-builtin {color: black/*#30a*/;}
-.cm-s-default .cm-tag {color: black/*#170*/;}
-.cm-s-default .cm-bracket {color: black/*#997*/;}
-.cm-s-default .cm-attribute {color: black/*#00c*/;}
+.cm-s-default .cm-qualifier {color: green/*#555*/;}
+.cm-s-default .cm-builtin {color: yellow/*#30a*/;}
+.cm-s-default .cm-tag {color: cyan/*#170*/;}
+.cm-s-default .cm-bracket {color: brown/*#997*/;}
+.cm-s-default .cm-attribute {color: lime/*#00c*/;}
 .cm-s-default .cm-hr {color: #999;}
 .cm-s-default .cm-link {color: #00c;}
 
