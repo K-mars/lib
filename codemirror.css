@@ -148,17 +148,17 @@ THE SOFTWARE.
 .cm-s-default .cm-operator {}
 .cm-s-default .cm-variable-2 {color:black/*#05a*/;}
 .cm-s-default .cm-variable-3 {color: #085;}
-.cm-s-default .cm-comment {color: yellowgreen/*#a50*/;} /*medium blue*/
+.cm-s-default .cm-comment {color: yellowgreen/*#a50*/;} /*yellowgreen*/
 .cm-s-default .cm-string {color: lime/*#a11*/;} /*lime*/
 .cm-s-default .cm-m-javascript.cm-string {color: blue;} /* blue*/
-.cm-s-default .cm-m-sql.cm-string {color: blue;} /* black*/
+.cm-s-default .cm-m-sql.cm-string {color: blue;} /* blue*/
 .cm-s-default .cm-string-2 {color: #f50;}
 .cm-s-default .cm-meta {color: #555;}
-.cm-s-default .cm-qualifier {color: breown/*#555*/;} /* brown*/
+.cm-s-default .cm-qualifier {color: brown/*#555*/;} /* brown*/
 .cm-s-default .cm-builtin {color: brown/*#30a*/;} /* brown*/
 .cm-s-default .cm-tag {color: brown/*#170*/;} /* brown*/
 .cm-s-default .cm-bracket {color: cyan/*#997*/;} /* cyan*/
-.cm-s-default .cm-attribute {color: mediumblue/*#00c*/;} /* lime*/
+.cm-s-default .cm-attribute {color: mediumblue/*#00c*/;} /* mediumblue*/
 .cm-s-default .cm-hr {color: #999;}
 .cm-s-default .cm-link {color: #00c;}
 
