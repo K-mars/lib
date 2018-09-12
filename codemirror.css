@@ -148,7 +148,7 @@ THE SOFTWARE.
 .cm-s-default .cm-operator {}
 .cm-s-default .cm-variable-2 {color:black/*#05a*/;}
 .cm-s-default .cm-variable-3 {color: #085;}
-.cm-s-default .cm-comment {color: mediumblue/*#a50*/;} /*medium blue*/
+.cm-s-default .cm-comment {color: green/*#a50*/;} /*medium blue*/
 .cm-s-default .cm-string {color: lime/*#a11*/;} /*lime*/
 .cm-s-default .cm-m-javascript.cm-string {color: blue;} /* blue*/
 .cm-s-default .cm-m-sql.cm-string {color: blue;} /* black*/
@@ -157,7 +157,7 @@ THE SOFTWARE.
 .cm-s-default .cm-qualifier {color: brown/*#555*/;} /* brown*/
 .cm-s-default .cm-builtin {color: brown/*#30a*/;} /* brown*/
 .cm-s-default .cm-tag {color: blue/*#170*/;} /* brown*/
-.cm-s-default .cm-bracket {color: green/*#997*/;} /* cyan*/
+.cm-s-default .cm-bracket {color: cyan/*#997*/;} /* cyan*/
 .cm-s-default .cm-attribute {color: brown/*#00c*/;} /* lime*/
 .cm-s-default .cm-hr {color: #999;}
 .cm-s-default .cm-link {color: #00c;}
