@@ -135,22 +135,22 @@ THE SOFTWARE.
 .cm-strikethrough {text-decoration: line-through;}
 
 .cm-s-default .cm-keyword {color: blue/*#708*/;}
-.cm-s-default .cm-atom {color: red/*#219*/;}
-.cm-s-default .cm-number {color: green/*#164*/;}
-.cm-s-default .cm-m-javascript.cm-number {color: purple;}
+.cm-s-default .cm-atom {color: blue/*#219*/;}
+.cm-s-default .cm-number {color: blue/*#164*/;}
+.cm-s-default .cm-m-javascript.cm-number {color: yellow;}
 .cm-s-default .cm-m-sql.cm-number {color: cyan;}
 .cm-s-default .cm-def {color: black/*#00f*/;}
-.cm-s-default .cm-variable {color:yellow;}
-.cm-s-default .cm-m-css.cm-variable {color:Magenta;}
+.cm-s-default .cm-variable {color:black;}
+.cm-s-default .cm-m-css.cm-variable {color:red;}
 .cm-s-default .cm-punctuation {}
-.cm-s-default .cm-property {color:black;}
-.cm-s-default .cm-m-javascript.cm-property {color: black;}
+.cm-s-default .cm-property {color:purple;}
+.cm-s-default .cm-m-javascript.cm-property {color: lime;}
 .cm-s-default .cm-operator {}
 .cm-s-default .cm-variable-2 {color:black/*#05a*/;}
 .cm-s-default .cm-variable-3 {color: #085;}
-.cm-s-default .cm-comment {color: black/*#a50*/;}
-.cm-s-default .cm-string {color: black/*#a11*/;}
-.cm-s-default .cm-m-javascript.cm-string {color: black;}
+.cm-s-default .cm-comment {color: green/*#a50*/;}
+.cm-s-default .cm-string {color: magenta/*#a11*/;}
+.cm-s-default .cm-m-javascript.cm-string {color: brown;}
 .cm-s-default .cm-m-sql.cm-string {color: black;}
 .cm-s-default .cm-string-2 {color: #f50;}
 .cm-s-default .cm-meta {color: #555;}
