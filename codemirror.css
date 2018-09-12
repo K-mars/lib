@@ -141,7 +141,7 @@ THE SOFTWARE.
 .cm-s-default .cm-m-sql.cm-number {color: yellow;}  /* yellow*/
 .cm-s-default .cm-def {color: black/*#00f*/;} 
 .cm-s-default .cm-variable {color:black;}
-.cm-s-default .cm-m-css.cm-variable {color:red;} /* red*/
+.cm-s-default .cm-m-css.cm-variable {color:blue;} /* red*/
 .cm-s-default .cm-punctuation {}
 .cm-s-default .cm-property {color:lime;} /*lime*/
 .cm-s-default .cm-m-javascript.cm-property {color: black;} /*black*/
