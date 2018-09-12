@@ -443,7 +443,7 @@ for (j = 0; j < k; j++) {
 function kmarsCodeColorize(x, lang) {
   var tagcolor = "cyan";
   var tagnamecolor = "brown";
-  var attributecolor = "magenta";
+  var attributecolor = "mediumblue";
   var attributevaluecolor = "mediumblue";
   var commentcolor = "yellowgreen";
   var cssselectorcolor = "brown";
