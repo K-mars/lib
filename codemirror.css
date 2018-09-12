@@ -156,9 +156,9 @@ THE SOFTWARE.
 .cm-s-default .cm-meta {color: #555;}
 .cm-s-default .cm-qualifier {color: breown/*#555*/;} /* brown*/
 .cm-s-default .cm-builtin {color: brown/*#30a*/;} /* brown*/
-.cm-s-default .cm-tag {color: mediumblue/*#170*/;} /* brown*/
+.cm-s-default .cm-tag {color: brown/*#170*/;} /* brown*/
 .cm-s-default .cm-bracket {color: cyan/*#997*/;} /* cyan*/
-.cm-s-default .cm-attribute {color: brown/*#00c*/;} /* lime*/
+.cm-s-default .cm-attribute {color: mediumblue/*#00c*/;} /* lime*/
 .cm-s-default .cm-hr {color: #999;}
 .cm-s-default .cm-link {color: #00c;}
 
