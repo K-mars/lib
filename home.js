@@ -444,7 +444,7 @@ function kmarsCodeColorize(x, lang) {
   var tagcolor = "cyan";
   var tagnamecolor = "brown";
   var attributecolor = "mediumblue";
-  var attributevaluecolor = "mediumblue";
+  var attributevaluecolor = "lime";
   var commentcolor = "yellowgreen";
   var cssselectorcolor = "brown";
   var csspropertycolor = "lime";
