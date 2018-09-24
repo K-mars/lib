@@ -125,8 +125,8 @@ THE SOFTWARE.
 
 /* DEFAULT THEME */
 
-.cm-s-default .cm-header {color: blue;}
-.cm-s-default .cm-quote {color: #090;}
+.cm-s-default .cm-header {color: brown;} /* blue*/
+.cm-s-default .cm-quote {color: #090;} /* #090; */
 .cm-negative {color: #d44;}
 .cm-positive {color: #292;}
 .cm-header, .cm-strong {font-weight: bold;}
@@ -134,31 +134,31 @@ THE SOFTWARE.
 .cm-link {text-decoration: underline;}
 .cm-strikethrough {text-decoration: line-through;}
 
-.cm-s-default .cm-keyword {color: blue/*#708*/;} /* blue*/
-.cm-s-default .cm-atom {color: blue/*#219*/;} /* blue*/
-.cm-s-default .cm-number {color: blue/*#164*/;} /* blue*/
-.cm-s-default .cm-m-javascript.cm-number {color: yellow;} /* yellow*/
-.cm-s-default .cm-m-sql.cm-number {color: yellow;}  /* yellow*/
-.cm-s-default .cm-def {color: black/*#00f*/;} 
-.cm-s-default .cm-variable {color:black;}
-.cm-s-default .cm-m-css.cm-variable {color:blue;} /* red*/
-.cm-s-default .cm-punctuation {}
-.cm-s-default .cm-property {color:lime;} /*lime*/
-.cm-s-default .cm-m-javascript.cm-property {color: black;} /*black*/
-.cm-s-default .cm-operator {}
-.cm-s-default .cm-variable-2 {color:black/*#05a*/;}
-.cm-s-default .cm-variable-3 {color: #085;}
-.cm-s-default .cm-comment {color: yellowgreen/*#a50*/;} /*yellowgreen*/
-.cm-s-default .cm-string {color: lime/*#a11*/;} /*lime*/
-.cm-s-default .cm-m-javascript.cm-string {color: blue;} /* blue*/
-.cm-s-default .cm-m-sql.cm-string {color: blue;} /* blue*/
+.cm-s-default .cm-keyword {color: lime /*#708*/;} /* css name({border}blue), java (if,else, var) blue*/
+.cm-s-default .cm-atom {color: lime /*#219*/;} /* css name ({border}solid) blue*/
+.cm-s-default .cm-number {color: lime /*#164*/;} /* css name ({border}4px) blue*/
+.cm-s-default .cm-m-javascript.cm-number {color: GoldenRod ;} /* java number([2]) yellow*/
+.cm-s-default .cm-m-sql.cm-number {color: GoldenRod;}  /* sql number([2]) yellow*/
+.cm-s-default .cm-def {color: purple /*#00f*/;} /* java function (myfunction) black*/
+.cm-s-default .cm-variable {color:teal;} /* java variable(document. etc) black*/
+.cm-s-default .cm-m-css.cm-variable {color:red;} /* css error color red*/
+.cm-s-default .cm-punctuation {} /* section is empty*/
+.cm-s-default .cm-property {color:brown;} /* css property (border,font-size)lime*/
+.cm-s-default .cm-m-javascript.cm-property {color: green;} /* java variable (etc getelement)black*/
+.cm-s-default .cm-operator {color:black;} /* java operator (=) section is empty*/
+.cm-s-default .cm-variable-2 {color: purple /*#05a*/;} /* java variable (x,y)black*/
+.cm-s-default .cm-variable-3 {color: purple /*#085*/;} /* #085; */
+.cm-s-default .cm-comment {color: yellowgreen/*#a50*/;} /* css comment yellowgreen*/
+.cm-s-default .cm-string {color: lime /*#a11*/;} /* java inner string ({style}display:etc) lime*/
+.cm-s-default .cm-m-javascript.cm-string {color: DodgerBlue ;} /*java inner string ({id}mybtn) blue*/
+.cm-s-default .cm-m-sql.cm-string {color: DodgerBlue;} /* sql inner string ({id}mybtn) blue*/
 .cm-s-default .cm-string-2 {color: #f50;}
-.cm-s-default .cm-meta {color: #555;}
-.cm-s-default .cm-qualifier {color: brown/*#555*/;} /* brown*/
-.cm-s-default .cm-builtin {color: brown/*#30a*/;} /* brown*/
-.cm-s-default .cm-tag {color: brown/*#170*/;} /* brown*/
-.cm-s-default .cm-bracket {color: cyan/*#997*/;} /* cyan*/
-.cm-s-default .cm-attribute {color: mediumblue/*#00c*/;} /* mediumblue*/
+.cm-s-default .cm-meta {color: black /*#555*/;} /* metatag(<!doctype html>) #555;*/
+.cm-s-default .cm-qualifier {color: blue /*#555*/;} /* css class(.) brown*/
+.cm-s-default .cm-builtin {color: blue /*#30a*/;} /* css id(#) brown*/
+.cm-s-default .cm-tag {color: mediumblue/*#170*/;} /*html tag (head,body,div) brown*/
+.cm-s-default .cm-bracket {color: cyan /*#997*/;} /* html bracket cyan*/
+.cm-s-default .cm-attribute {color: Chocolate /*#00c*/;} /* html attribute (id,class,style) mediumblue*/
 .cm-s-default .cm-hr {color: #999;}
 .cm-s-default .cm-link {color: #00c;}
 
