@@ -335,7 +335,7 @@ function googleTranslateElementInit() {
     pageLanguage: 'en',
     autoDisplay: false,
     gaTrack: true,
-    gaId: 'UA-3855518-1',
+    gaId: 'UA-123788312-2',
     layout: google.translate.TranslateElement.InlineLayout.SIMPLE
   }, 'google_translate_element');
 }
@@ -351,7 +351,7 @@ function printPage() {
   }
   var head = document.getElementsByTagName("head")[0].innerHTML;
   var myWindow=window.open('','','');
-  myWindow.document.write("<html><head>"+head+"<style>body{padding:15px;}@media print {.printbtn {display:none;}}</style></head><body><button class='printbtn' onclick='window.print()'>Print Page</button><br><br>"+content+"<p><a href='/2018/08/copyright.html'>Copyright 2018</a> by KmArS Group. All Rights Reserved.</p></body></html>");
+  myWindow.document.write("<html><head>"+head+"<style>body{padding:15px;}@media print {.printbtn {display:none;}}</style></head><body><button class='printbtn' onclick='window.print()'>Print Page</button><br><br>"+content+"<p><a href='/2010/07/copyright.html'>Copyright 2018</a> by KmArS Groups. All Rights Reserved.</p></body></html>");
 }
 function openGoogleTranslate() {
   var d = "text/javascript",
